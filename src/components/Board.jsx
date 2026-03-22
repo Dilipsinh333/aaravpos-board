@@ -11,7 +11,7 @@ const PlusIcon = () => (
 
 export default function Board({ onCardClick }) {
   return (
-    <div className="board-area" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '16px' }}>
+    <div className="board-area" >
 
       {/* ── COL 1: TODAY'S APPOINTMENTS ── */}
       <div className="col col-appt">
